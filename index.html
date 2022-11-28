@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./access/style.css">
+    <link rel="stylesheet" href="./access/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./access/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./access/grid-systeam.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="grid wide">
+                <div class="header-main">
+                    <div class="header-main__logo">
+                        <img class="header-main__logo-img" src="./access/img/tiki_logo.png" alt="">
+                    </div>
+                    <div class="header-main__search-input">
+                        <input placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ..." type="text"
+                            class="header-main__input">
+                        <!-- Seach-Hisptory -->
+                        <div class="search-history">
+                            <div class="search-history__banner">
+                                <div class="search-history__banner-msg">TiKi 11.11 - Sale Cực To</div>
+                                <img class="search-history__banner-img" src="./access/img/sale-banner.png" alt="">
+                            </div>
+                            <ul class="search-history__items">
+                                <li class="search-history__item">
+                                    <img class="search-history__item-img" src="./access/img/history-icon.png" alt="">
+                                    <span class="search-history__item-info">pin sạc aa</span>
+                                    <img class="search-history__item-close-btn" src="./access/img/close.png" alt="">
+                                </li>
+                                <li class="search-history__item">
+                                    <img class="search-history__item-img" src="./access/img/history-icon.png" alt="">
+                                    <span class="search-history__item-info">sổ crabit</span>
+                                    <img class="search-history__item-close-btn" src="./access/img/close.png" alt="">
+                                </li>
+                                <li class="search-history__item">
+                                    <img class="search-history__item-img" src="./access/img/history-icon.png" alt="">
+                                    <span class="search-history__item-info">quạt tản nhiệt laptop cooler master</span>
+                                    <img class="search-history__item-close-btn" src="./access/img/close.png" alt="">
+                                </li>
+
+                            </ul>
+                            <div class="search-history__item-more-btn">
+                                <span><a class="search-history__item-more-btn-link" href="">Xem thêm</a></span>
+                                <span><i class="search-history__item-more-btn-down fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="search-history__popular-search">
+                                <div class="search-history__popular-search-banner">
+                                    <img class="search-history__popular-search-img"
+                                        src="./access/img/popolar-search.png" alt="">
+                                    <span class="search-history__popular-search-slogan">Tìm Kiếm Phổ Biến</span>
+                                </div>
+                                <ul class="search-history__popular-search-list">
+                                    <li class="search-history__popular-search-item">
+                                        <img class="search-history__popular-search-item-img"
+                                            src="./access/img/popolar-search-2.png" alt="">
+                                        <span class="search-history__popular-search-item-inf">Quần đùi nam</span>
+                                    </li>
+                                    <li class="search-history__popular-search-item">
+                                        <img class="search-history__popular-search-item-img" src="./access/img/nho.jpg"
+                                            alt="">
+                                        <span class="search-history__popular-search-item-inf">famers maket</span>
+                                    </li>
+                                    <li class="search-history__popular-search-item">
+                                        <img class="search-history__popular-search-item-img"
+                                            src="./access/img/suatam.jpg" alt="">
+                                        <span class="search-history__popular-search-item-inf">Sửa tắm</span>
+                                    </li>
+                                    <li class="search-history__popular-search-item">
+                                        <img class="search-history__popular-search-item-img"
+                                            src="./access/img/taquan.jpg" alt="">
+                                        <span class="search-history__popular-search-item-inf">Tả quần Bamber</span>
+                                    </li>
+                                    <li class="search-history__popular-search-item">
+                                        <img class="search-history__popular-search-item-img"
+                                            src="./access/img/nuocxa.jpg" alt="">
+                                        <span class="search-history__popular-search-item-inf">Nước xả vãi Downy</span>
+                                    </li>
+                                    <li class="search-history__popular-search-item">
+                                        <img class="search-history__popular-search-item-img" src="./access/img/giay.jpg"
+                                            alt="">
+                                        <span class="search-history__popular-search-item-inf">Giày nhựa đi mưa nữ</span>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="search-history__category">
+                                <div class="search-history__category-content">Danh Mục Nổi Bật</div>
+                                <ul class="search-history__category-list">
+                                    <li class="search-history__category-item">
+                                        <img class="search-history__category-item-img" src="./access/img/toy.png"
+                                            alt="">
+                                        <span class="search-history__category-item-name">Đồ chơi - Mẹ & bé </span>
+                                    </li>
+                                    <li class="search-history__category-item">
+                                        <img class="search-history__category-item-img" src="./access/img/lamdep.png"
+                                            alt="">
+                                        <span class="search-history__category-item-name">Làm Đẹp - Sức Khỏe</span>
+                                    </li>
+                                    <li class="search-history__category-item">
+                                        <img class="search-history__category-item-img" src="./access/img/dienthoai.png"
+                                            alt="">
+                                        <span class="search-history__category-item-name">Điện Thoại Máy Tính Bảng</span>
+                                    </li>
+                                    <li class="search-history__category-item">
+                                        <img class="search-history__category-item-img" src="./access/img/maysacpin.jpg"
+                                            alt="">
+                                        <span class="search-history__category-item-name">Máy Sạc Pin</span>
+                                    </li>
+                                    <li class="search-history__category-item">
+                                        <img class="search-history__category-item-img"
+                                            src="./access/img/thoitrangnam.png" alt="">
+                                        <span class="search-history__category-item-name">Thời Trang Nam</span>
+                                    </li>
+                                    <li class="search-history__category-item">
+                                        <img class="search-history__category-item-img"
+                                            src="./access/img/thoitrangnu.png" alt="">
+                                        <span class="search-history__category-item-name">Thời Trang Nữ</span>
+                                    </li>
+                                    <li class="search-history__category-item">
+                                        <img class="search-history__category-item-img"
+                                            src="./access/img/thucphamtuoisong.png" alt="">
+                                        <span class="search-history__category-item-name">Thực Phẩm Tươi Sống</span>
+                                    </li>
+                                    <li class="search-history__category-item">
+                                        <img class="search-history__category-item-img"
+                                            src="./access/img/điệngiadụng.png" alt="">
+                                        <span class="search-history__category-item-name">Điện Gia Dụng</span>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                        <div class="header-main__search-button"><img class="header-main__search-button-icon"
+                                src="./access/img/search.png" alt="">Tìm Kiếm </div>
+                    </div>
+                    <div class="header-main__user">
+                        <div class="header-main__user-logo"><img class="header-main__user-logo-img"
+                                src="./access/img/use.png" alt=""></div>
+                        <div class="header-main__user-login">
+                            <div class="header-main__user-regestry">
+                                <span><a class="header-main__user-regestry-link" href="#">Đăng Nhập / </a></span>
+                                <span><a class="header-main__user-regestry-link" href="#">Đăng Kí</a></span>
+                            </div>
+                            <div class="header-main__user-account">Tài Khoản</div>
+                        </div>
+                    </div>
+                    <div class="header-main__cart">
+                        <img class="header-main__cart-img" src="./access/img/cart.png" alt="">
+                        <div class="header-main__cart-container header-main__cart-has-item--active">
+                            <!-- header-main__cart-emty--active -->
+                            <div class="header-main__cart-emty">
+                                <img class="header-main__cart-emty-img" src="./access/img/tiki-cart.png" alt="">
+                                <h3 class="header-main__cart-emty-msg">Không có sản phẩm nào trong giỏ hàng của bạn.
+                                </h3>
+                                <div class="header-main__cart-emty-btn">Tiếp tục mua sắm</div>
+                            </div>
+
+                            <div class="header-main__cart-has-item">
+                                <h3 class="header-main__cart-heading">Sản phẩm đã mua</h3>
+                                <ul class="header-main__cart-list">
+                                    <li class="header-main__cart-item">
+                                        <img src="./access/img/thucphamtuoisong.png" alt=""
+                                            class="header-main__cart-item-img">
+                                        <div class="header-main__cart-item-info">
+                                            <div class="header-main__cart-item-name-price">
+                                                <div class="header-main__cart-item-name">Thực phẩm Tiki đông lạnh</div>
+                                                <div class="header-main__cart-item-price">
+                                                    25.500.000đ
+                                                    <div class="header-main__cart-item-price-tag">x</div>
+                                                    <div class="header-main__cart-item-price-tag">1</div>
+                                                </div>
+                                            </div>
+                                            <div class="header-main__cart-item-type">
+                                                <div class="header-main__cart-item-option">Phân loại hàng: Bạc</div>
+                                                <div class="header-main__cart-item-delete">Xóa</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header-main__cart-item">
+                                        <img src="./access/img/thucphamtuoisong.png" alt=""
+                                            class="header-main__cart-item-img">
+                                        <div class="header-main__cart-item-info">
+                                            <div class="header-main__cart-item-name-price">
+                                                <div class="header-main__cart-item-name">Thực phẩm Tiki đông lạnh</div>
+                                                <div class="header-main__cart-item-price">
+                                                    25.500.000đ
+                                                    <div class="header-main__cart-item-price-tag">x</div>
+                                                    <div class="header-main__cart-item-price-tag">1</div>
+                                                </div>
+                                            </div>
+                                            <div class="header-main__cart-item-type">
+                                                <div class="header-main__cart-item-option">Phân loại hàng: Bạc</div>
+                                                <div class="header-main__cart-item-delete">Xóa</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header-main__cart-item">
+                                        <img src="./access/img/thucphamtuoisong.png" alt=""
+                                            class="header-main__cart-item-img">
+                                        <div class="header-main__cart-item-info">
+                                            <div class="header-main__cart-item-name-price">
+                                                <div class="header-main__cart-item-name">Thực phẩm Tiki đông lạnh</div>
+                                                <div class="header-main__cart-item-price">
+                                                    25.500.000đ
+                                                    <div class="header-main__cart-item-price-tag">x</div>
+                                                    <div class="header-main__cart-item-price-tag">1</div>
+                                                </div>
+                                            </div>
+                                            <div class="header-main__cart-item-type">
+                                                <div class="header-main__cart-item-option">Phân loại hàng: Bạc</div>
+                                                <div class="header-main__cart-item-delete">Xóa</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
+                        </div>
+                        <span>Giỏ Hàng</span>
+                        <div class="header-main__cart-quanlity">0</div>
+                    </div>
+
+                </div>
+                <div class="header-footer">
+                    <div class="header-footer__img">
+                        <img src="./access/img/free-ship.png" alt="">
+                    </div>
+                    <ul class="header-footer__list">
+                        <li class="header-footer__list-item"><a class="header-footer__list-item-link" href="">tất cả
+                                thịt rau củ</a></li>
+                        <li class="header-footer__list-item"><a class="header-footer__list-item-link" href="">thịt</a>
+                        </li>
+                        <li class="header-footer__list-item"><a class="header-footer__list-item-link" href="">hàng đông
+                                lạnh</a></li>
+                        <li class="header-footer__list-item"><a class="header-footer__list-item-link" href="">trái
+                                cây</a></li>
+                        <li class="header-footer__list-item"><a class="header-footer__list-item-link" href="">hải
+                                sản</a></li>
+                        <li class="header-footer__list-item"><a class="header-footer__list-item-link" href="">gạo</a>
+                        </li>
+
+                    </ul>
+                    <div class="header-footer__shop">
+                        <img class="header-footer__shop-logo" src="./access/img/icon-seller.svg" alt="">
+                        <div class="header-footer__shop-msg">Bán hàng cùng Tiki</div>
+                        <div class="header-footer__qr-code">
+                            <img class="header-footer__qr-code-img" src="./access/img/shoppe-qr.png" alt="">
+                            <div class="heade-footer__qr-code-app">
+                                <img src="./access/img/ggplay.png" width="70px" alt="">
+                                <img src="./access/img/appw.png" width="70px" alt="">
+                                <img src="./access/img/app.png" width="70px" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-header">
+            <div class="grid wide">
+                <div class="row">
+                    <ul class="nav-header__list">
+                        <li class="nav-header__item">
+                            <a href="">Thịt, Rau Củ</a>
+                        </li>
+                        <li class="nav-header__item">
+                            <a href="">Bách Hóa</a>
+                        </li>
+                        <li class="nav-header__item">
+                            <a href="">Nhà Cửa</a>
+                        </li>
+                        <li class="nav-header__item">
+                            <a href="">Điện tử</a>
+                        </li>
+                        <li class="nav-header__item">
+                            <a href="">Thiết Bị Số</a>
+                        </li>
+                        <li class="nav-header__item">
+                            <a href="">Điện Thoại</a>
+                        </li>
+                        <li class="nav-header__item">
+                            <a href="">Mẹ Và Bé</a>
+                        </li>
+                        <li class="nav-header__item">
+                            <a href="">Gia Dung</a>
+                        </li>
+                        <li class="nav-header__item">
+                            <a href="">Thịt, Rau Củ</a>
+                        </li>
+                        <li class="nav-header__item">
+                            <a href="">Bách Hóa</a>
+                        </li>
+                        <li class="nav-header__item">
+                            <a href="">Nhà Cửa</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="body">
+            <div class="banner">
+                <div class="grid wide">
+                    <div class="row small-gutter">
+                        <div class="col l-8">
+                            <div class="banner-big">
+                                <div class="banner-big__img">
+                                    <img src="./access/img/banner1.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="banner-small">
+                                <div class="banner-small__img">
+                                    <img src="./access/img/bannerL1.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="grid wide sales-home">
+                    <div class="row sales">
+                        <div class="sales-today__img">
+                            <img class="sales-img" src="./access/img/giasoc.svg" alt="">
+                            <img class="sales-img" src="./access/img/dealFlashIcon.svg" alt="">
+                            <img class="sales-img" src="./access/img/homnay.svg" alt="">
+                        </div>
+                        <div class="sales-time">
+                            <span>01</span>
+                            <span>:</span>
+                            <span>41</span>
+                            <span>:</span>
+                            <span>37</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col l-2">
+                        <div class="sales-product">
+                            <div class="sales-product__img">
+                                <img src="./access/img/product1.webp" alt="">
+                            </div>
+                            <div class="sales-product__detail">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <div class="modal">
+
+        <div class="modal-login">
+            <div class="modal-login-container">
+                <div class="modal-login__main">
+                    <h1 class="modal-login__main-header">Xin Chào,</h1>
+                    <div class="login-type">Đăng nhập hoặc Tạo tài khoản</div>
+                    <input type="text" placeholder="Số điện thoại" class="modal-login__main-input">
+                    <div class="border-bottom"></div>
+                    <div class="modal-login__main-btn">Tiếp Tục</div>
+                    <div class="modal-login__main-with-gmail"><a href="">Đăng nhập bằng email</a></div>
+                    <div class="modal-login__main-login-with-another">
+                        <div class="border"></div>
+                        Hoặc tiếp tục bằng
+                        <div class="border"></div>
+                    </div>
+                    <div class="modal-login__main-logo">
+                        <img class="modal-login__main-logo-img" src="./access/img/fb.png" alt="">
+                        <img class="modal-login__main-logo-img" src="./access/img/gg.png" alt="">
+                        <img class="modal-login__main-logo-img" src="./access/img/zalo.png" alt="">
+                    </div>
+                    <span class="modal-login__main-policy">Bằng việc tiếp tục, bạn đã chấp nhận điều khoản sử
+                        dụng</span>
+
+                </div>
+            </div>
+            <div class="modal-login-img-cotainer">
+                <img class="modal-login-img" src="./access/img/tiki-login.png" alt="">
+                <span class="tiki-slogan">Mua sắm tại Tiki</span>
+                <span class="tiki-slogan2">Siêu ưu đãi mỗi ngày</span>
+                <img src="./access/img/close-login-btn.png" alt="" class="close-login-btn">
+
+            </div>
+
+
+        </div>
+        <script>
+            const openLogin = document.querySelector('.header-main__user-regestry')
+            const modalLogin = document.querySelector('.modal')
+            const closeLogin = document.querySelector('.close-login-btn')
+            function openLoginForm() {
+                modalLogin.classList.add('open-modal-login')
+            }
+            function closeLoginForm() {
+                modalLogin.classList.remove('open-modal-login')
+            }
+            openLogin.addEventListener('click', openLoginForm)
+            closeLogin.addEventListener('click', closeLoginForm)
+        </script>
+</body>
+
+</html>
